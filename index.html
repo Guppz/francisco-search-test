@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./CSS/normalize.css">
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/float-label-css/1.0.2/float-label.min.css">
 </head>
 
 <body>
@@ -29,11 +30,10 @@
             - Look up the owner's name, photos and online profiles. See what you find!
         </p>
 
+        <div>
 
-
-        <div class="">
-            <label for="inputEmail" class="emailLabel" id="label">Email</label>
-            <input class="search-email-input" type="text" id="inputEmail" oninput="emailValidator()">
+            <input class="search-email-input" type="text" id="inputEmail" oninput="emailValidator()"
+                placeholder="Email">
             <button class="search-email-btn" onclick="searchEmail()">GO!</button>
         </div>
 

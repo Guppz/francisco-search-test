@@ -22,20 +22,15 @@ let mailIsCorrect = false;
 // Email validaton using a simple regex to check if the email is correct and adding classes for the input
 const emailValidator = () => {
     let inputEmail = document.getElementById('inputEmail');
-    let label = document.getElementById('label');
-    label.classList.add('floatLabel');
+
     let mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     if(inputEmail.value.match(mailformat)){
          mailIsCorrect = true;
          inputEmail.classList.add("good");
          inputEmail.classList.remove("error");
-         label.innerHTML="Email";
-         label.classList.remove('errorLabel');
     }else{
          mailIsCorrect = false; 
          inputEmail.classList.remove("good");
          inputEmail.classList.add("error")
-         label.innerHTML="Please add a valid email address";
-         label.classList.add('errorLabel');
     }
 }
