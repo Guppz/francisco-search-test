@@ -215,14 +215,16 @@ body{
 .emailLabel{
     color: #9B9B9B;
     position: absolute;
-    top: 29px;
+    top: 30.7%;
     left: 22.8%;
 }
 
 
 .floatLabel{
-    top: 7px;
+    top: 28.7%;
 }
+
+
 .errorLabel{
     color:#DC0015;
 }
