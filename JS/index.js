@@ -1,14 +1,12 @@
-let emailUrl  = "https://cors-anywhere.herokuapp.com/https://ltv-data-api.herokuapp.com/api/v1/records.json?email=";
+let emailUrl  = "http://localhost:3000/user";
 let mailIsCorrect = false; 
 
  //Calls to the api  checks first if the email is correct to use.
  const searchEmail =  async() => {
    let inputEmail = document.getElementById('inputEmail').value;
-
-
-
+   
    if(mailIsCorrect == true){
-    emailUrl = emailUrl + inputEmail;
+    //emailUrl = emailUrl + inputEmail;
     console.log(emailUrl);
     const response = await fetch(emailUrl)
         .then(response => response.json())
