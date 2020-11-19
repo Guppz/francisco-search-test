@@ -1,4 +1,4 @@
-let emailUrl  = "https://ltv-data-api.herokuapp.com/api/v1/records.json?email=";
+let emailUrl  = "https://cors-anywhere.herokuapp.com/https://ltv-data-api.herokuapp.com/api/v1/records.json?email=";
 let mailIsCorrect = false; 
 
  //Calls to the api  checks first if the email is correct to use.
