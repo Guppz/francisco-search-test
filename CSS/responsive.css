@@ -1,0 +1,142 @@
+@media (min-width: 270px) and (max-width: 769px) {
+    
+    .header-logo{
+        margin-left: 15px;
+    }
+
+    .header-icons{
+        margin-right: 15px;
+    }
+  }
+
+  @media (min-width: 755px) and (max-width:1182px)  {
+    .main-info-container {
+        margin-bottom: 20px;
+        width: 80%;
+    }
+    .numbers-container {
+        grid-template-columns: 58% 44%;
+    }
+    .numberCircle {
+        width: 63px;
+        height: 63px;
+        font-size: 33px;
+ 
+    }
+    .number-des {
+        width: 250px;
+        height: 96px;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width:755px)  {
+    .main-info-container {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .numbers-container {
+        grid-template-columns: 1fr;
+    }
+    .numberCircle {
+        width: 50px;
+        height: 50px;
+        font-size: 26px;
+ 
+    }
+    .number-des {
+        font-size: 16px;
+        width: 223px;
+        height: 120px;
+    }
+    .main-info h2{
+        font-size: 48px;
+    }
+  } 
+
+  @media (min-width:320px) and (max-width:568px){
+    .search-email h1 {
+        font-size: 35px;
+    }
+    .search-email-info-text {
+        font-size: 16px;
+    }
+    .search-email-lock{
+        left: 15%;
+    }
+    .footer{
+        display: grid;
+    }
+    .footer-info{
+        text-align: center;
+        width: 280px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .footer-terms{
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+  }
+
+
+  @media (min-width:320px) and (max-width:354px){
+    .search-email{
+        height: 460px;
+    }
+    .search-email-input{
+        width: 268px;
+        margin-bottom: 10px;
+    }
+    .search-email-btn{
+        width: 280px;
+    }
+    .search-email-lock{
+        left: 11%;
+    }
+    
+    
+  }
+
+
+  /* results css */
+
+
+  @media (min-width: 320px) and (max-width:600px){
+    .numberCircle{
+        display: none;
+    }
+
+ 
+    .user-info-container{
+        margin-left: 0px;
+    }
+
+  } 
+
+  
+  @media (min-width: 601px) and (max-width:798px){
+      .person{
+          width: 20px;
+      }
+  }
+
+
+
+  @media (min-width: 768px) and (max-width:874px){
+    .ipad{
+        margin-left: -104px !important; 
+    }
+} 
+
+
+@media (min-width: 320px) and (max-width:427px){
+    .search-results-card{
+        width: 73%;
+    }
+} 
+
+
+
+
+

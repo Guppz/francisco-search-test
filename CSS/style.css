@@ -1,0 +1,239 @@
+:root {
+    --main-bg-color: #004A80;
+    --main-text-color:#FFFFFF;
+    --main-hightlight-color:#F6BC25 ;
+}
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');
+body{
+    font-family: 'Arimo', sans-serif;
+}
+.header{
+    position: relative;
+    width: 100%;
+    height: 65px;
+    background: var(--main-bg-color);;
+}
+.header-logo{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    margin-left: 230px;
+}
+.header-icons{
+    position: absolute;
+    top: 20px;
+    right:0px;
+    margin-right: 230px;
+}
+
+.icons{
+    margin-left: 25px;
+    width: 23px;
+    height: 23px;
+}
+.search-email{
+    text-align: center;
+    width: 100%;
+    height: 389px;
+    background:var(--main-bg-color);
+}
+.search-email{
+    color: var(--main-text-color);
+}
+
+.search-email h1{
+    font-weight: 700;
+    padding-top: 50px;
+    font-size: 52px;
+    letter-spacing: 0;
+}
+.search-email-info-text{
+    display: block;
+    font-size: 24px;
+    margin-top: 15px;
+}
+.search-email-info-text span{
+    color: var(--main-hightlight-color);
+}
+.search-email-input{
+    padding-left: 12px;
+    height: 70px;
+    width: 44%;
+    border: none;
+    border-radius: 3px;
+}
+.search-email-label{
+    color: #9B9B9B;
+}
+
+.search-email-btn{
+    width: 180px;
+    height: 70px;
+    border: none;
+    background-image: linear-gradient(225deg, #F2DA56 0%, #F6BC25 100%);
+    box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+    border-radius: 6px;
+    font-size: 24px;
+    color: var(--main-bg-color);
+    font-weight: 700
+
+}
+
+.search-email-btn:hover{
+    background: #F2DA56;
+}
+.search-email-btn:focus{
+    background: var(--main-hightlight-color);
+}
+
+.search-email-lock{
+    margin-top: 30px;
+    font-size: 16px;
+    color: var(--main-hightlight-color);
+    position: absolute;
+    left: 23%;
+    text-align: left;
+
+    
+}
+.search-email-lock-icon{
+    margin-right: 15px;
+}
+
+.main-info{
+    background-image: linear-gradient(0deg, #E6E6E6 0%, #FFFFFF 100%);
+    height: auto;
+    padding-bottom: 5%;
+}
+
+.main-info h2{
+    text-align: center;
+    font-size: 52px;
+    color: var(--main-bg-color);
+}
+
+.main-info-des{
+    text-align: left;
+    font-size: 22px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin: 0 9%;
+    margin-bottom: 40px;
+
+}
+
+.main-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numbers-container{
+    display: grid;
+    grid-template-columns: 60% 20%;
+}
+.cicle{
+    margin-right:20px ;
+}
+
+.main-info-container .cicle {
+    display: flex;
+    flex-direction: column;
+  }
+
+.numberCircle {
+    display: flex;
+    font-size: 48px;
+    font-weight: 700;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    padding: 8px;
+    color: var(--main-hightlight-color);
+    background-color: var(--main-bg-color);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.number-title{
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--main-bg-color);
+}
+.number-des{
+    width: 380px;
+    height: 78px;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+
+.footer{
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content:center;
+    align-items: center;
+}
+
+.footer-info{
+    font-size: 15px;
+    color: #999999;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-right: 130px;
+    width: 960px;
+    align-items: center;
+}
+
+.footer-terms{
+    font-size: 14px;
+    font-weight: 700;
+    color:var(--main-bg-color);
+    letter-spacing: 0; 
+    text-decoration: none;
+    align-items: center;
+    width: 300px;
+}
+.main-info ul{
+    list-style: none;
+}
+
+.error{
+    border: 2px solid;
+    border-color: red;
+}
+.good{
+    border: 2px solid #F6BC25;
+}
+.container{
+    position: relative ;
+}
+
+.emailLabel{
+    color: #9B9B9B;
+    position: absolute;
+    top: 29px;
+    left: 22.8%;
+}
+
+
+.floatLabel{
+    top: 7px;
+}
+.errorLabel{
+    color:#DC0015;
+}
+
+
+
+
+
+
+
+
+
+
+
